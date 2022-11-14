@@ -2,6 +2,10 @@
 
 let array = [];
 let somma = 0;
+let numeroMaggiore = 0;
+let numroMinore;
+
+
 
 for (let i = 0; i < 10; i++){
     let numero = prompt("Scrivi un numero");
@@ -9,7 +13,17 @@ for (let i = 0; i < 10; i++){
     array.push(numero);
     somma = somma + numero;
 
+    /* if (numero > numeroMaggiore){
+        numeroMaggiore = numero
+    }; */
+
 };
 
 console.log(array);
 console.log(somma);
+
+console.log(Math.max(...array));
+console.log(Math.min(...array));
+
+let media = somma / array.length;
+console.log(media);
