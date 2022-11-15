@@ -5,8 +5,6 @@ let somma = 0;
 let numeroMaggiore = 0;
 let numroMinore;
 
-
-
 for (let i = 0; i < 10; i++){
     let numero = prompt("Scrivi un numero");
     numero = parseInt(numero);
@@ -20,10 +18,10 @@ for (let i = 0; i < 10; i++){
 };
 
 console.log(array);
-console.log(somma);
+console.log("La somma di tutti i numeri è uguale a: " + somma);
 
-console.log(Math.max(...array));
-console.log(Math.min(...array));
+console.log("Il numero maggiore è: " + Math.max(...array));
+console.log("Il numero minore è: " + Math.min(...array));
 
 let media = somma / array.length;
-console.log(media);
+console.log("La media di questi numeri è: " + media);

@@ -7,9 +7,9 @@ numero1 = parseInt(numero1);
 numero2 = parseInt(numero2);
 
 if (numero1 > numero2){
-    console.log(numero1);
+    console.log("Il numero maggiore è: " + numero1);
 
 }else if (numero2 > numero1){
-    console.log(numero2);
+    console.log("Il numero minore è: " + numero2);
 
-}else console.log(numero1 + "," + numero2);
+}else console.log("Il primo numero è uguale al secondo numero");

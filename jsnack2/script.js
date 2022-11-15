@@ -4,9 +4,9 @@ let parola1 = prompt("Inserisci una parola:");
 let parola2 = prompt("Inserisci un'altra parola:");
 
 if (parola1.length > parola2.length){
-    console.log(parola1);
+    console.log("La parola più lunga è: " + parola1);
 
 }else if (parola2.length > parola1.length){
-    console.log(parola2);
+    console.log("La parola più lunga è: " + parola2);
 
-}else console.log(parola1 + "," + parola2);
+}else console.log("Le parole hanno la stessa lunghezza ed esse sono: " + parola1 + ", " + parola2);
